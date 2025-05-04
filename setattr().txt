@@ -1,0 +1,7 @@
+# setattr() -> sets or changes the value of an attribute dynamically
+# syntax: setattr(obj_name,'attribute_name',value)
+class cat:
+    meow="me me"
+p=cat()
+setattr(p,'age',30)
+print(p.age)
